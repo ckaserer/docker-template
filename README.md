@@ -30,7 +30,7 @@ source docker-travis-cli/bashrc
 add-docker-credentials "dockerUsername"
 ```
 
-run following command directly 
+or run following command directly 
 
 ```
 docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-docker-credentials "dockerUsername"
@@ -53,7 +53,7 @@ source docker-travis-cli/bashrc
 add-slack-token "workspace:myToken"
 ```
 
-run following command directly
+or run following command directly
 
 ```
 docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-slack-token "workspace:myToken"
