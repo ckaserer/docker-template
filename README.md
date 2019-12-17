@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/ckaserer/docker-template.svg?branch=master)](https://travis-ci.com/ckaserer/docker-template)
-![Docker Pulls](https://img.shields.io/docker/pulls/ckaserer/docker-template)
+![Docker Pulls](https://img.shields.io/docker/pulls/ckaserer/hello-world)
 ![GitHub](https://img.shields.io/github/license/ckaserer/docker-template)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020)
 <br>
