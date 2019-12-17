@@ -24,9 +24,13 @@ CentOS 7 container image with ...
 
 1) use ckaserer/docker-travis-cli to encrypt your docker credentials
 
+```
 git clone https://github.com/ckaserer/docker-travis-cli.git
 source docker-travis-cli/bashrc
 add-docker-credentials "dockerUsername"
+```
+
+run following command directly 
 
 ```
 docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-docker-credentials "dockerUsername"
@@ -43,9 +47,13 @@ docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-
 7) on top you will find setup instructions. You can't just copy and paste them!
 8) use ckaserer/docker-travis-cli to encrypt your slack token
 
+```
 git clone https://github.com/ckaserer/docker-travis-cli.git
 source docker-travis-cli/bashrc
 add-slack-token "workspace:myToken"
+```
+
+run following command directly
 
 ```
 docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-slack-token "workspace:myToken"
