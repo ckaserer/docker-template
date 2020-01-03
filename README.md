@@ -56,8 +56,10 @@ add-slack-token "workspace:myToken"
 or run following command directly
 
 ```
-docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-slack-token "workspace:myToken"
+docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root ckaserer/travis-cli add-slack-token "workspace:myToken"
 ```
+
+<!--
 
 ## How to set up google chat notifications
 
@@ -79,5 +81,7 @@ add-googlechat-webhook "myWebhookUrl"
 or run following command directly
 
 ```
-docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root -w=/root ckaserer/travis-cli add-googlechat-webhook "myWebhookUrl"
+docker run --rm -i -e TZ=Europe/Vienna -v $(pwd):/root ckaserer/travis-cli add-googlechat-webhook "myWebhookUrl"
 ```
+
+-->
