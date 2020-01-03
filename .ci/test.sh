@@ -3,6 +3,6 @@
 source bashrc
 
 set -e
-docker-template-build
+docker-template-build --no-cache
 docker-template
 set +e

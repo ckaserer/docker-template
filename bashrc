@@ -12,7 +12,7 @@ readonly -f docker-template
 
 # docker-template-build
 function docker-template-build () {
-  local command="docker build -t ckaserer/hello-world --no-cache ${DOCKER_TEMPLATE_HOME}"
+  local command="docker build -t ckaserer/hello-world $@ ${DOCKER_TEMPLATE_HOME}"
   echo "+ ${command}" && ${command}
 }
 readonly -f docker-template-build
